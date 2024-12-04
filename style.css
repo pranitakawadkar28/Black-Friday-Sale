@@ -1,0 +1,157 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > .box {
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box > .left {
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-right: 0.5px solid rgba(255, 255, 255, 0.738);
+}
+
+.left > img {
+    width: 50px;
+    height: 50px;
+}
+
+.box > .right {
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.right > .nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav > .nav-a{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-a > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.nav > .nav-b{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    color: white;
+} 
+
+.right-down {
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.right-down > .rl {
+    width: 60%;
+    height: 100%;
+}
+
+.rl > h2{
+    font-size: 60px;
+    color: white;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.rl > h4{
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+
+.rl > p{
+    font-size: 12px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.right-down > .rr{
+    width: 40%;
+    height: 67%;
+    margin-top: 17.6%;
+    background-image: url(./image.png);
+    background-position: center;
+    background-size: contain;
+} 
+
+.btn {
+    width: 40%;
+    height: 20%;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+.text > h1 {
+    position: absolute;
+    top: 58%;
+    left: 28%;
+    font-size: 70px;
+    color: white;
+    font-family: "Voyage";
+}
+
+.text > h3 {
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    font-size: 75px;
+    color: white;
+    font-family: "Voyage";
+}
