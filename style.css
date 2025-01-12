@@ -115,9 +115,10 @@ html,body {
 
 
 .right-down > .rr{
-    width: 40%;
-    height: 67%;
-    margin-top: 17.6%;
+    width: 33%;
+    height: 58.8%;
+    margin-top: 16.8%;
+    /* background-color: red; */
     background-image: url(./image.png);
     background-position: center;
     background-size: contain;
